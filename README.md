@@ -65,5 +65,15 @@ The dashboard is organized into several key analysis sections:
 
 ### 2. Clone the Repository
 ```bash
-git clone []
-cd 
+git clone [https://github.com/Loitongbam-David/ipl_analytic.git]
+cd ipl_analytic.git
+### 3. Create a virtual environment
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+### 3. Install the requirement
+pip install streamlit pandas matplotlib
+### 4. RUN the following code
+streamlit run app.py
